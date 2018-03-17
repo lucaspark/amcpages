@@ -4,6 +4,10 @@
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
+:root{
+--heading-font: 'Montserrat';
+}
+
 
 
 .sans-serif {
@@ -14,6 +18,10 @@
                roboto, noto,
                'segoe ui', arial,
                sans-serif;
+}
+
+.heading {
+  font-family: var(--heading-font);
 }
 
 .serif {

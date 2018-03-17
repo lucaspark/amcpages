@@ -20,8 +20,6 @@
 .btn:link,
 .btn:visited {
   border-radius: .3em;
-  border-style: solid;
-  border-width: 1px;
   color: #111;
   display: inline-block;
   letter-spacing: .15em;
@@ -30,7 +28,7 @@
   transition: color .4s, background-color .4s, border .4s;
 }
 
-.btn:hover {
+/* .btn:hover {
   color: #7FDBFF;
   border: 1px solid #7FDBFF;
   transition: background-color .3s, color .3s, border .3s;
@@ -40,7 +38,7 @@
   color: #0074D9;
   border: 1px solid #0074D9;
   transition: background-color .3s, color .3s, border .3s;
-}
+} */
 
 
 /*
@@ -165,17 +163,15 @@
 
 .btn--gray-border:active {
   background-color: #ccc;
-  border-color: #ccc;
   color: #444;
 }
 
-.btn--gray-dark:link,
-.btn--gray-dark:visited {
+.btn--gray-dark {
   background-color: #555;
   color: #eee;
 }
 
-.btn--gray-dark:hover {
+/* .btn--gray-dark:hover {
   background-color: #333;
   border-color: #333;
   color: #eee;
@@ -185,7 +181,7 @@
   background-color: #777;
   border-color: #777;
   color: #eee;
-}
+} */
 
 
 /* BLUES */

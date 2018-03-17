@@ -29,11 +29,11 @@
 
 .f-6,
 .f-headline {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 .f-5,
 .f-subheadline {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 
@@ -48,9 +48,9 @@
 
 @media (--breakpoint-not-small){
   .f-6-ns,
-  .f-headline-ns { font-size: 6rem; }
+  .f-headline-ns { font-size: 5rem; }
   .f-5-ns,
-  .f-subheadline-ns { font-size: 5rem; }
+  .f-subheadline-ns { font-size: 4rem; }
   .f1-ns { font-size: 3rem; }
   .f2-ns { font-size: 2.25rem; }
   .f3-ns { font-size: 1.5rem; }
@@ -61,9 +61,9 @@
 
 @media (--breakpoint-medium) {
   .f-6-m,
-  .f-headline-m { font-size: 6rem; }
+  .f-headline-m { font-size: 5rem; }
   .f-5-m,
-  .f-subheadline-m { font-size: 5rem; }
+  .f-subheadline-m { font-size: 4rem; }
   .f1-m { font-size: 3rem; }
   .f2-m { font-size: 2.25rem; }
   .f3-m { font-size: 1.5rem; }
@@ -75,11 +75,11 @@
 @media (--breakpoint-large) {
   .f-6-l,
   .f-headline-l {
-    font-size: 6rem;
+    font-size: 5rem;
   }
   .f-5-l,
   .f-subheadline-l {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .f1-l { font-size: 3rem; }
   .f2-l { font-size: 2.25rem; }

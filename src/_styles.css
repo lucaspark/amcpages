@@ -6,3 +6,14 @@
 
 */
 
+p {
+	margin: 0;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.icons {
+	fill: var(--maroon);
+}

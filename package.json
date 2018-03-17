@@ -22,7 +22,7 @@
     "browser-sync": "^1.1.1",
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
-    "tachyons-cli": "^1.0.8",
+    "tachyons-cli": "^1.2.0",
     "watch": "^0.19.2"
   },
   "contributors": [
@@ -38,5 +38,8 @@
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
     "build:watch": "watch 'npm run build' ./src/"
+  },
+  "dependencies": {
+    "tachyons-build-css": "^1.6.0"
   }
 }

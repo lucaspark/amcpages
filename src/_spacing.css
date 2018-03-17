@@ -5,6 +5,7 @@
   --spacing-extra-small: .25rem;
   --spacing-small: .5rem;
   --spacing-medium: 1rem;
+  --spacing-nav: 1.4rem;
   --spacing-large: 2rem;
   --spacing-extra-large: 4rem;
   --spacing-extra-extra-large: 8rem;
@@ -55,6 +56,7 @@
 .pa5 { padding: var(--spacing-extra-large); }
 .pa6 { padding: var(--spacing-extra-extra-large); }
 .pa7 { padding: var(--spacing-extra-extra-extra-large); }
+.pan { padding: var(--spacing-nav); }
 
 .pl0 { padding-left: var(--spacing-none); }
 .pl1 { padding-left: var(--spacing-extra-small); }
